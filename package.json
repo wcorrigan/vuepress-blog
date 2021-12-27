@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcorrigan/vuepress-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcorrigan/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/wcorrigan/vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.5"
+  }
+}
