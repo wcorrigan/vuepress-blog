@@ -30,3 +30,19 @@ export default {
   }
 };
 </script>
+<style src="prismjs/themes/prism-tomorrow.css"></style>
+<style lang="stylus">
+/* colors */
+$accentColor = #3eaf7c;
+$textColor = #2c3e50;
+$borderColor = #eaecef;
+$codeBgColor = #282c34;
+$arrowBgColor = #ccc;
+
+/* code */
+$lineNumbersWrapperWidth = 3.5rem;
+$codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py;
+
+@import './styles/custom-blocks.styl';
+@import './styles/code.styl';
+</style>
